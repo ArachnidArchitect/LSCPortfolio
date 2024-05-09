@@ -186,3 +186,59 @@ background-color: black;
     border: 0px solid white;
     outline: none;
 }
+/* contact code */
+#contact{
+    background-image: url("../images/samuel-ferrara-dKJXkKCF2D8-unsplash.png");
+    height: 100vh;
+    background-size: cover;
+    background-position-y: -68em ;
+    font-size: 2ch;
+    font-family: 'General Sans', sans-serif;[]
+}
+#contact h1{
+    color: #FF2B51;
+    font-size: 7ch;
+    font-family: 'General Sans', sans-serif;
+    text-align: center;
+}
+.myContact{
+    align-items: center;
+    height: 80%;
+}
+#contact input{
+    text-align: center;
+    background-color: #0D6EFD;
+    color: white;
+    padding: 1em;
+
+    font-size: 2ch;
+    font-family: 'General Sans', sans-serif;
+
+    outline: none;
+    border: none;
+    border-radius: 5em;
+
+}
+#contact input::placeholder{
+    color: white;
+    opacity: 35%;
+    font-size: 2ch;
+    font-family: 'General Sans', sans-serif;
+}
+button[type="submit"]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
+/* footer code */
+footer{background-color: #FF2B51;
+color: #fff;
+text-align: center;
+}
