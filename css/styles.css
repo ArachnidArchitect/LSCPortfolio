@@ -123,6 +123,7 @@ background-color: black;
     color: #fff;
     font-family: 'General Sans', sans-serif;
     height: 100vh;
+    overflow-y: scroll;
 
 }
 #about .myCont{
@@ -165,4 +166,23 @@ background-color: black;
     font-size: 30px;
     color: #292929;
     text-align: left;
+}
+
+
+/* referral section */
+.myReferralsRow{
+    justify-content: center;
+    height: 100vh;
+    flex-direction: wrap;
+
+}
+.myReferralsCol{
+    justify-content: space-evenly;
+    padding: 2em;
+
+}
+
+.myCard{
+    border: 0px solid white;
+    outline: none;
 }
