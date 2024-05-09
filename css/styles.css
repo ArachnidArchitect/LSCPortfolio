@@ -116,3 +116,53 @@ background-color: black;
 #timelineCont0, #timelineCont1, #timelineCont2, #timelineCont3{
     height: 80%;
 }
+
+/* about styling */
+#about{
+    background-color: #FFA500;
+    color: #fff;
+    font-family: 'General Sans', sans-serif;
+    height: 100vh;
+
+}
+#about .myCont{
+    align-items: center;
+}
+#about .myContItem{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5em;
+    transition: 5s;
+}
+#about .myHead{
+    font-size: 60px;
+}
+.myHoverMe{
+    position: absolute;
+    width: 314px;
+    height: 200;
+    padding: 2em;
+}
+.myText1{
+    scale: 1;
+    transition: 2s;
+}
+
+.myText2{
+    display: none;
+    scale: 0;
+}
+
+.myContItem:hover .myText1{
+    display: none;
+    scale: 0;
+}
+.myContItem:hover .myText2{
+    display: block;
+    scale: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #292929;
+    text-align: left;
+}
