@@ -296,13 +296,39 @@ font-family: "Poppins", sans-serif;
     .myHoverMe{
         display: none;
     }
-
+#timelineCont1, #timelineCont1 >*{
+        display: none;
+    }
+    #timelineCont0{
+        scale: .7;
+    }
   
 }
 /* for tablets */
 /* scale down about paragraphs */
 /* remove the secnd column on timeline */
 /* add the hamburger menu */
-/* @media only screen and (max-width: 996px) {
-    
-} */
+
+
+
+/* for mobile */
+/* scale down about text */
+/* scale down contact me header */
+/* remove timeline header */
+@media only screen and (max-width: 424px) {
+    #timelineCont0{
+    }
+    #timelineCont0 p{
+        width: 100%;
+        scale: .8;
+    }
+    .myContact h1{
+        scale: .5;
+    }
+    form{
+        scale: .8;
+    }
+    .myContItem{
+        scale: .5;
+    }
+}
