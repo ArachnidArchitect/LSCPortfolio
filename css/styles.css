@@ -9,8 +9,12 @@
     color: #FF2B51;
     font-size: 4ch;
 }
-ul.nav{
+.myNavList{
     margin: 0 auto;
+    justify-content: space-evenly;
+}
+.myNavList .ham-item{
+    display: none;
 }
 ul.nav li a{
     color: white;
@@ -123,8 +127,11 @@ background-color: black;
     color: #fff;
     font-family: 'General Sans', sans-serif;
     height: 100vh;
-    overflow-y: scroll;
+   
 
+}
+.myCont{
+    overflow-y: scroll;
 }
 #about .myCont{
     align-items: center;
@@ -171,12 +178,16 @@ background-color: black;
 
 /* referral section */
 .myReferralsRow{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     height: 100vh;
     flex-direction: wrap;
 
 }
 .myReferralsCol{
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: 2em;
 
@@ -243,3 +254,55 @@ color: #fff;
 text-align: center;
 font-family: "Poppins", sans-serif;
 }
+
+/* small laptops */
+/* stack cards and add scroll*/
+@media only screen and (max-width: 1024px) {
+    .myReferralContainer{
+        height: 80vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        overflow-y: scroll;
+    }
+    .myReferralsRow{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .hideThis{
+        display: none;
+    }
+    .myNavList{
+        justify-content: flex-end;
+    }
+    .myNavList .ham-item{
+        padding: 1em;
+        display: block;
+    }
+    .ham-item:hover {
+        display: none;
+    }
+    .ham-item:hover ~ .hideThis {
+        display: block;
+    }
+}
+
+/* tablet */
+/* hover me - done*/
+/* add hamburger menu */
+@media only screen and (max-width: 996px) {
+    .myHoverMe{
+        display: none;
+    }
+
+  
+}
+/* for tablets */
+/* scale down about paragraphs */
+/* remove the secnd column on timeline */
+/* add the hamburger menu */
+/* @media only screen and (max-width: 996px) {
+    
+} */
